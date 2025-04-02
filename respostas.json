@@ -1,0 +1,146 @@
+{
+    "perguntas": {
+        "sem conexao": {
+            "resposta": "Aqui estão algumas etapas para resolver 'Sem Conexão':\n1. Verifique se o nome da rede Wi-Fi está aparecendo.\n2. Verifique se o cabo de rede externa está conectado na entrada WAN ou INTERNET do roteador.\n3. Tente executar o diagnóstico de rede no seu dispositivo.\n4. Verifique se outros dispositivos também estão sem conexão.\n5. Entre em contato com o suporte técnico do seu provedor de internet se o problema persistir.",
+            "tags": [
+                "sem conexão",
+                "sem internet",
+                "não conecta",
+                "desconectado",
+                "falta de conexão"
+            ],
+            "tipo": "texto"
+        },
+        "lentidao conexao": {
+            "resposta": "Aqui estão algumas etapas para resolver 'Lentidão na Conexão':\n1. Verifique se há muitos dispositivos conectados à rede.\n2. Execute um teste de velocidade para medir o desempenho da sua conexão.\n3. Reinicie o roteador e os dispositivos conectados.\n4. Certifique-se de que não há downloads ou transmissões pesadas em andamento.\n5. Entre em contato com o suporte técnico do seu provedor para verificar se há problemas na sua área.",
+            "tags": [
+                "lentidão",
+                "internet lenta",
+                "demorada",
+                "velocidade baixa"
+            ],
+            "tipo": "texto"
+        },
+        "financeiro fatura": {
+            "resposta": "Para enviar a fatura ao cliente, abra um chamado para ele no MK com o título de boleto e siga as instruções no portal financeiro.",
+            "tags": [
+                "fatura",
+                "boleto",
+                "boleto cliente",
+                "enviar boleto"
+            ],
+            "tipo": "texto"
+        },
+        "testado e configurado": {
+            "resposta": "e configurado",
+            "tags": [
+                "testado"
+            ],
+            "tipo": "imagem_testado",
+            "imagem": "imagens/testado_e_configurado.png"
+        },
+        "financeiro bloqueio": {
+            "resposta": "Caso o cliente esteja bloqueado, recomende que ele realize o auto-desbloqueio pelo app, WhatsApp ou aguarde o repasse bancário, que é feito dentro de 24 horas úteis.",
+            "tags": [
+                "bloqueio",
+                "conexão bloqueada",
+                "como fazer desbloqueio"
+            ],
+            "tipo": "texto"
+        },
+        "teste de ping": {
+            "resposta": "Para realizar o teste de ping aperte a tecla windows + r e siga os procedimentos da imagem abaixo:",
+            "tags": [
+                "ping",
+                "testar ping",
+                "tesde de ping",
+                "pingar"
+            ],
+            "tipo": "imagem_ping",
+            "imagem": "imagens/teste_ping.png"
+        },
+        "perda de pacote": {
+            "resposta": "A perda de pacote, ou packet loss em inglês, é um erro que ocorre quando um ou mais pacotes de dados não alcançam o destinatário \ndurante a sua viagem pela rede, e isso poderá ocasoinar problemas \ncomo lentidão e quedas na rede.",
+            "tags": [
+                "perda de pacote",
+                "packet loss"
+            ],
+            "tipo": "texto"
+        },
+        "conexao generica": {
+            "resposta": "",
+            "tags": [
+                "conexão",
+                "internet",
+                "rede",
+                "wifi",
+                "conectividade",
+                "conexao"
+            ],
+            "tipo": "opcoes",
+            "opcoes": [
+                {
+                    "texto": "Sem Conexão",
+                    "resposta": "Aqui estão algumas etapas para resolver 'Sem Conexão':\n1. Verifique se o nome da rede Wi-Fi está aparecendo.\n2. Verifique se o cabo de rede externa está conectado.\n3. Tente executar o diagnóstico de rede.\n4. Verifique se outros dispositivos também estão sem conexão.\n5. Contate o suporte técnico do seu provedor de internet."
+                },
+                {
+                    "texto": "Lentidão na Conexão",
+                    "resposta": "Aqui estão algumas etapas para resolver 'Lentidão na Conexão':\n1. Verifique se há muitos dispositivos conectados.\n2. Execute um teste de velocidade.\n3. Reinicie o roteador.\n4. Certifique-se de que não há downloads pesados.\n5. Contate o suporte técnico."
+                },
+                {
+                    "texto": "Bloqueio de Conexão",
+                    "resposta": "Caso o cliente esteja bloqueado, recomende que ele realize o auto-desbloqueio pelo app, WhatsApp ou aguarde o repasse bancário, que é feito dentro de 24 horas úteis."
+                }
+            ]
+        },
+        "financeiro generica": {
+            "resposta": "",
+            "tags": [
+                "financeiro",
+                "assuntos financeiros",
+                "duvida financeiro"
+            ],
+            "tipo": "opcoes",
+            "opcoes": [
+                {
+                    "texto": "Bloqueio de Conexão",
+                    "resposta": "Caso o cliente esteja bloqueado, recomende que ele realize o auto-desbloqueio pelo app, WhatsApp ou aguarde o repasse bancário."
+                },
+                {
+                    "texto": "Enviar Boleto",
+                    "resposta": "Para enviar a fatura ao cliente, abra um chamado no MK com o título de boleto e siga as instruções no portal financeiro."
+                }
+            ]
+        },
+        "senha genérica": {
+            "resposta": "",
+            "tags": [
+                "senha",
+                "senhas"
+            ],
+            "tipo": "opcoes",
+            "opcoes": [
+                {
+                    "texto": "Senha rede wifi",
+                    "resposta": "Para verificar qual a senha da rede wifi siga esses passos: \n1- Acesse o roteador pelo ip padrão do equipamento ex: (192.168.0.1) ou pelo ip e porta para acesso remoto ex: (0.0.0.0:1939); \n2- Vá na aba 'wireless' ou 'rede sem fio'; \n3- E em 'segurança' ou 'senha' você conseguira identificar qual a senha da rede wifi."
+                },
+                {
+                    "texto": "Senha aplicativo de faturas",
+                    "resposta": "As senhas padrões do app de faturas do GL são: \n123 ou 123456. \nCaso nenhuma dessas funcione: \n1- Acesse a aba do cadastro do cliente pelo MK; \n2- Procure por 'inserir aqui o nome pois nao me recordo' que você irá conseguir a senha do cliente"
+                },
+                {
+                    "texto": "Senha GLTV",
+                    "resposta": "INSERIR SEQUÊNCIA DE IMAGENS"
+                }
+            ]
+        },
+        "dasasdasd": {
+            "resposta": "Resposta não cadastrada.",
+            "tags": []
+        },
+        "adsdas": {
+            "resposta": "Resposta não cadastrada.",
+            "tags": []
+        }
+    }
+}
