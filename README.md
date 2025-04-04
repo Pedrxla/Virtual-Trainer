@@ -1,16 +1,19 @@
 EN-US
 
-This desktop program works like a trainer and/or a program to answer questions from employees in a company. The employee logs in using the "banco_de_dados" usuarios-e-senhas.json and if the login is correct, the program sistema_atendimento.py starts. In this system, the user can ask the program something and it will search for something related to the question and return the answer to the user. I used an internet company as an example, where a user asks how to solve connection problems and it lists the main problems as options for the user to choose from. When choosing, it returns the solution to that problem.
+This desktop program is a true digital assistant for businesses, functioning as both a trainer and a support system for employees. With a secure login validated from the usuarios-e-senhas.json database, employees can access sistema_atendimento.py, where they can quickly and efficiently get answers to their questions.
 
-The answers are registered in the file resposta.json (I know I should put it in another language to deal with databases, but I still don't know how to deal with MySQL very well, etc., but that doesn't mean that in the future I can't migrate to a more practical language to deal with this type of database) and are filtered through the file banco_de_dados.py.
+The process is simple: the user asks a question, the system searches for the best answer in the respostas.json file, and displays it clearly and objectively. For example, imagine an employee at an internet service provider who needs to solve a customer's connection issue. The program lists the most common problems and presents options for the user to choose from. Based on the selection, it provides the ideal solution to resolve the issue.
 
-That's it in short, if you need more information about the functionality of the program or one version translated into English, just contact me.
+Currently, the responses are stored in a JSON file and filtered through banco_de_dados.py. I understand that more robust database systems, such as MySQL, would be a more suitable choice for this type of system. However, for now, this solution works well, and nothing prevents a future migration to a more advanced technology.
+
+That's the summary. If you need more details about the functionality or the program itself or one version translated into English, feel free to contact me.
 
 PT-BR
 
-Esse programa desktop fuciona como um treinador e/ou um programa para tirar dúvidas dos funcionários de uma empresa, o funcionário efetua o login que está cadastrado no "banco de dados" usuarios-e-senhas.json e se o login estiver correto ele inicia o programa sistema_atendimento.py, onde nesse sistema o usuário pode perguntar algo para o programa e ele irá procurar algo relacionado a pergunta e irá retornar a resposta para o usuário, utilizei de exempl uma empresa de internet onde um usuário pergunta como resolver problemas de conexão e ele lista os principais problemas como opções para o usuário escolher, ao escolher, ele retorna a solução para tal problema.
+Este programa desktop é um verdadeiro assistente digital para empresas, funcionando como um treinador e um sistema de suporte para os funcionários. Com um login seguro, validado a partir do banco de dados usuarios-e-senhas.json, o colaborador acessa o sistema_atendimento.py, onde pode tirar dúvidas de forma rápida e eficiente.
 
+O funcionamento é simples: o usuário faz uma pergunta, o sistema busca a melhor resposta no arquivo respostas.json e a exibe de forma clara e objetiva. Imagine, por exemplo, um funcionário de uma empresa de internet que precisa resolver um problema de conexão de um cliente. O programa lista os problemas mais comuns e apresenta opções para o usuário escolher. Com base na escolha, ele recebe a solução ideal para resolver a questão.
 
-as respostas ficam cadastradas no arquivo resposta.json (eu sei que deveria colocar em outra linguagem para lidar  com banco de dados, mas ainda não sei lidar muito bem com mysql e etc, mas isso não quer dizer que do no futuro eu não possa realizar a migração para uma linguagem mais prática para lidar com esse tipo de banco de dados) que são filtradas através do arquivo banco_de_dados.py.
+Atualmente, as respostas estão armazenadas em um arquivo JSON e filtradas através do banco_de_dados.py. Sei que bancos de dados mais robustos, como MySQL, seriam uma escolha mais adequada para esse tipo de sistema. No entanto, por enquanto, essa solução atende bem, e nada impede uma futura migração para uma tecnologia mais avançada.
 
-Resumidamente é isso, caso precise de mais informações sobre a funcionalidade ou o programa basta entrar em contato comigo.
+Em resumo, este sistema torna o suporte interno mais ágil e eficiente. Caso tenha dúvidas ou precise de mais informações, estou à disposição!
